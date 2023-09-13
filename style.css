@@ -24,7 +24,10 @@ img {
 /* K finálnímu výsledku bude třeba si také pohrát s flexboxem a na pár míst ho přidat. */
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
   padding: 1rem;
+  gap: 1rem;
 }
 
 /* Kartička uživatele */
